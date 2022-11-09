@@ -193,6 +193,20 @@ body {
   max-width: 270px;
 }
 
+.adv-icon-wrap {
+  background-color: var(--alt-bg-color);
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.adv-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .adv-subtitle {
   font-size: 14px;
   line-height: 1.14;

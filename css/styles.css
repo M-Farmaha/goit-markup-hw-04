@@ -134,6 +134,11 @@ body {
 /* ----------------HERO------------------ */
 .hero {
   background-color: var(--second-bg-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
   text-align: center;
   padding: 200px 0px;
 }
@@ -143,7 +148,6 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
   color: var(--first-bg-color);
 

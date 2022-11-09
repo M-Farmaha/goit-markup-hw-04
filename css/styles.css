@@ -202,11 +202,6 @@ body {
   margin-bottom: 30px;
 }
 
-.adv-icon {
-  width: 70px;
-  height: 70px;
-}
-
 .adv-subtitle {
   font-size: 14px;
   line-height: 1.14;
@@ -273,18 +268,20 @@ body {
   padding-bottom: 30px;
   padding-top: 30px;
   border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 
 .team-text,
 .team-subtitle {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+
   letter-spacing: 0.03em;
 }
 
 .team-text {
   color: var(--first-text-color);
+  margin-bottom: 16px;
 }
 
 .team-subtitle {
@@ -292,6 +289,34 @@ body {
   color: var(--title-text-color);
 
   margin-bottom: 10px;
+}
+
+.social-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-link {
+  display: block;
+  text-align: center;
+  width: 44px;
+  height: 44px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #afb1b8;
+  background-color: var(--first-bg-color);
+  border-radius: 50%;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--first-bg-color);
+  background-color: var(--accent-color);
 }
 
 /* ----------------FOOTER------------------ */

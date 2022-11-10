@@ -5,6 +5,7 @@
   --first-bg-color: #ffffff;
   --second-bg-color: #2f303a;
   --alt-bg-color: #f5f4fa;
+  --calm-icon-corol: #afb1b8;
 }
 
 /* ----------------RESET------------------ */
@@ -42,6 +43,7 @@ body {
 .link:hover,
 .link:focus {
   color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .container {
@@ -138,11 +140,6 @@ body {
   fill: currentColor;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-color);
-}
-
 /* ----------------HERO------------------ */
 .hero {
   background-color: var(--second-bg-color);
@@ -237,7 +234,8 @@ body {
 }
 
 .work-title,
-.team-title {
+.team-title,
+.clients-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -316,7 +314,7 @@ body {
   height: 44px;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #afb1b8;
+  color: var(--calm-icon-corol);
   background-color: var(--first-bg-color);
   border-radius: 50%;
 }
@@ -334,6 +332,35 @@ body {
 .social-link:focus {
   color: var(--first-bg-color);
   background-color: var(--accent-color);
+}
+
+/* ----------------CLIENTS------------------ */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-link {
+  display: block;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 170px;
+  height: 92px;
+
+  color: var(--calm-icon-corol);
+  border: 1px solid var(--calm-icon-corol);
+  border-radius: 4px;
+}
+
+.client-icon {
+  fill: currentColor;
 }
 
 /* ----------------FOOTER------------------ */
@@ -370,7 +397,7 @@ body {
 }
 
 .footer-join {
-  display: block;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
